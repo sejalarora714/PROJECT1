@@ -5,7 +5,7 @@
 
 ## Team Members
 1. Vivek Murugulla [vcm79503](https://github.com/vcm79503/4610-Project-1/blob/main/README.md)
-2. Sejal Arora 
+2. Sejal Arora [sejalarora714]
 3. Angie Lin [aangielin](https://github.com/aangielin/project-one/edit/main/README.md)
 4. Alyssa Luangxay [alyssaxlu](https://github.com/alyssaxlu/Project-1/edit/main/README.md)
 5. Robert Anthony [ra14858](https://github.com/robertanthony23/Project1/blob/main/README.md)
@@ -101,6 +101,7 @@ QUERY 9 (complex): What is the most common Food/Drink pairing in orders?
 Query 9 allows managers to see what are the most frequently paired items from both food and drink menu options. Combination orders typically lead to a higher total order price, so it’s worthwhile for managers to research this information. This query lists the foodItem/drinkItem pair and the number of times that pair was ordered across all bars in our database. Finally, the results are displayed by order frequency in descending order
 
 QUERY 10 (complex): List suppliers, their contact info, and the number of instances where food item ingredients are low/out of stock
+
 <img width="626" alt="Screenshot 2025-03-20 at 11 51 41 AM" src="https://github.com/user-attachments/assets/eeccd696-347b-4ff5-9fe6-a2c1a5c8564f" />
 
 Query 10 provides vital information for managers looking to monitor food ingredient inventory status and reassess supplier relationships. Since low/out-of-stock typically negatively impacts a bar’s sales, managers will be eager to evaluate which suppliers are responsible for the supply and either contact them or look for alternative suppliers. This query counts the number of distinct food items whose stock is either low or out in the database. Results are grouped by supplier ID, supplier name, and contact information for managers looking to reach out. 
